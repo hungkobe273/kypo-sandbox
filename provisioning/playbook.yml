@@ -8,7 +8,7 @@
   become: yes
   tasks:
       - include_role:
-            name: kypo-disable-qxl
+            name: kypo-disable-q
         when: ansible_os_family == 'Debian'
 
 - name: set up server
